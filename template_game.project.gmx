@@ -69,19 +69,6 @@
           <sprite>sprites\spr_player_3_c</sprite>
           <sprite>sprites\spr_player_3_s</sprite>
         </sprites>
-        <sprites name="unused">
-          <sprite>sprites\spr_player_f_a</sprite>
-          <sprite>sprites\spr_player_cs_a</sprite>
-          <sprite>sprites\spr_player_c_a</sprite>
-          <sprite>sprites\spr_player_j_a</sprite>
-          <sprite>sprites\spr_player_w_a</sprite>
-          <sprite>sprites\spr_player_j_old</sprite>
-          <sprite>sprites\spr_player_f</sprite>
-          <sprite>sprites\spr_player_1</sprite>
-          <sprite>sprites\spr_player_delete</sprite>
-          <sprite>sprites\spr_player_1_s_a</sprite>
-        </sprites>
-        <sprite>sprites\spr_player_example</sprite>
       </sprites>
     </sprites>
     <sprites name="enemy">
