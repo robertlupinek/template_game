@@ -29,7 +29,4 @@ if ( alarm[5] ){
 //Draw the actual sprite.
 draw_sprite_ext(sprite_index,-1,x + tmp_rand,y + tmp_rand,xscale,yscale,image_angle,color,image_alpha);
 
-draw_set_font(global.font_red);
-draw_set_halign(fa_center);
-draw_set_color(c_white);
-draw_text(x,y,id);
+

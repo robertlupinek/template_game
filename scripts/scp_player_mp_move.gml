@@ -1,10 +1,10 @@
 //Delay when you can actually start moving.
 
 //Set the path for the player if mouse pressed above the hud and not player is not stunned
-if ( mouse_check_button(mb_left) && mouse_y < 192 && alarm[3] <= 0 ){
+if ( mouse_check_button(mb_left) && mouse_y < 192 + view_yview[0] && alarm[3] <= 0 ){
   //Set the mouse coordinates as the target
-  target_x = mouse_x + view_xview[0];
-  target_y = mouse_y + view_yview[0];
+  target_x = mouse_x;
+  target_y = mouse_y;
 
   //Set the icon for the mouse
   obj_controller.my_selection_thingy.state = 1;
