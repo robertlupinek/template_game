@@ -281,6 +281,7 @@
       <script>scripts\scp_player_next_level.gml</script>
       <scripts name="mp">
         <script>scripts\scp_player_mp_move.gml</script>
+        <script>scripts\scp_player_mp_calculate_path.gml</script>
       </scripts>
       <scripts name="spells">
         <script>scripts\scp_attack_normal.gml</script>
@@ -440,9 +441,9 @@
     </objects>
     <objects name="effects">
       <objects name="particles">
-        <object>objects\obj_e_spark</object>
         <object>objects\obj_ice_chunk</object>
         <object>objects\obj_spark_line</object>
+        <object>objects\obj_e_spark</object>
         <object>objects\obj_wind_particle</object>
         <object>objects\obj_chunk</object>
         <objects name="smoke">

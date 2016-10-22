@@ -24,7 +24,8 @@ global.keyboard = true;
 //Grid game play?
 global.grid = false;
 
-
+//Is the game paused for selection?
+global.pause_select = 0;
 
 //Do players auto target?
 global.auto_target = true;
@@ -42,7 +43,7 @@ global.level_max = 12;
 global.p_selected[0] = 1;
 global.p_selected[1] = 1;
 global.p_selected[2] = 0;
-global.p_selected_last = 0;
+
 
 
 
