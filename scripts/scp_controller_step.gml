@@ -52,6 +52,8 @@ if ( keyboard_check_pressed(ord('N') ) )
 
 //Key presses 
 
+/*  I am commenting this out because this is really only used to pause the game and keep
+//moving the player and that really doesn't work well in the template.
 if ( keyboard_check_pressed(ord('P') ) )
 {
   //Create the pause selection object and pause the screen
@@ -63,7 +65,7 @@ if ( keyboard_check_pressed(ord('P') ) )
     with(tmp_pause){scp_pause_select_freeze_unfreeze(0);}  
   }
 }
-
+*/
 
 if ( keyboard_check(ord('Z') ) )
 {
