@@ -16,6 +16,9 @@ global.music = false;
 //Switch betwen movement types
 
 //Movement with pathfinding
+//WARNING - if you use mp and remove this variable you will need to modify
+//the path delete and grid destroy in the player/enemy parents as well as the controller.
+//These things are set in those objects game and room end events.
 global.mp = true;
 //Simple point and click movement
 global.mouse = false;

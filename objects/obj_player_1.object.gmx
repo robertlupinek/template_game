@@ -51,6 +51,11 @@ scp_player_create();
           <argument>
             <kind>1</kind>
             <string>with(my_wand){instance_destroy();}
+
+if ( global.mp ){
+  //Delete your path son
+  path_delete(my_path);
+}
 </string>
           </argument>
         </arguments>
@@ -73,9 +78,8 @@ scp_player_create();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if ( !global.pause_select ){
-  scp_player_end_step();
-//}
+            <string>scp_player_end_step();
+
 </string>
           </argument>
         </arguments>
@@ -98,9 +102,8 @@ scp_player_create();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if ( !global.pause_select ){
-  scp_player_step();
-//}
+            <string>scp_player_step();
+
 
 
 </string>
